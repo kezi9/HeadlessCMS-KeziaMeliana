@@ -21,7 +21,7 @@
     <link href="https://fonts.googleapis.com/css2?family=Mulish:ital,wght@0,200..1000;1,200..1000&display=swap"
         rel="stylesheet">
 
-    <title>Bootstrap Group 7</title>
+    <title>Headless CMS Kezia M - Bootstrap Group 7</title>
 </head>
 
 <body>
@@ -110,7 +110,7 @@
                                                 </svg>
                                             </button>
                                             <div class="vr"></div>
-                                            <div class="p-4 profilename">Jones Ferdinand</div>
+                                            <div class="p-4 profilename"></div>
                                             <img src="/assets/img/Icons/Jones Ferdinand Photo.png" alt="Logo" width="32"
                                                 height="32" class="UserIcon">
                                         </div>
@@ -128,32 +128,24 @@
                         <div class="col-xl-3 col-sm-6 col-12">
                             <div class="card h-100">
                                 <div class="card-body ticketbar">
-                                    <h5 class="card-title heading1">Unresolved</h5>
-                                    <p class="card-text numb-block numbers1">60</p>
                                 </div>
                             </div>
                         </div>
                         <div class="col-xl-3 col-sm-6 col-12">
                             <div class="card h-100">
                                 <div class="card-body ticketbar">
-                                    <h5 class="card-title heading1">Overdue</h5>
-                                    <p class="card-text numb-block numbers1">16</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-xl-3 col-sm-6 col-12">
+                            <div class="card h-100">
+                                <div class="card-body ticketbar" >
                                 </div>
                             </div>
                         </div>
                         <div class="col-xl-3 col-sm-6 col-12">
                             <div class="card h-100">
                                 <div class="card-body ticketbar">
-                                    <h5 class="card-title heading1">Open</h5>
-                                    <p class="card-text numb-block numbers1">43</p>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-xl-3 col-sm-6 col-12">
-                            <div class="card h-100">
-                                <div class="card-body ticketbar">
-                                    <h5 class="card-title heading1">On hold</h5>
-                                    <p class="card-text numb-block numbers1">64</p>
                                 </div>
                             </div>
                         </div>
@@ -184,26 +176,16 @@
                                 <div class="col-md-4">
                                     <div class="card h-100 rightcard">
                                         <ul class="list-group list-group-flush rightlist flex-grow-1">
-                                            <li class="list-group-item disabled rightbar" aria-disabled="true">
-                                                Resolved
-                                                <p>449</p>
+                                            <!-- <li class="list-group-item disabled rightbar" aria-disabled="true">
                                             </li>
                                             <li class="list-group-item disabled rightbar" aria-disabled="true">
-                                                Received
-                                                <p>426</p>
                                             </li>
                                             <li class="list-group-item disabled rightbar" aria-disabled="true">
-                                                Average first response time
-                                                <p>33m</p>
                                             </li>
                                             <li class="list-group-item disabled rightbar" aria-disabled="true">
-                                                Average response time
-                                                <p>3h 8m</p>
                                             </li>
                                             <li class="list-group-item disabled rightbar" aria-disabled="true">
-                                                Resolution with SLA
-                                                <p>94%</p>
-                                            </li>
+                                            </li> -->
                                         </ul>
                                     </div>
                                 </div>
@@ -228,23 +210,23 @@
                                         <p class="card-text">Group:<a href="" id="support"> Support </a></p>
                                     </div>
                                 </div>
-                                <ul class="list-group list-group-flush listblock">
-                                    <li class="list-group-item">
+                                <ul class="list-group list-group-flush listblock unresolvedblock" id="unresolvedblock">
+                                    <!-- <li class="list-group-item unresolveblockItems">
                                         Waiting on Feature Request
                                         <span class="text-nowrap text-xs text-muted">4238</span>
                                     </li>
-                                    <li class="list-group-item">
+                                    <li class="list-group-item unresolveblockItems">
                                         Awaiting Customer Response
                                         <span class="text-nowrap text-xs text-muted">1005</span>
                                     </li>
-                                    <li class="list-group-item">
+                                    <li class="list-group-item unresolveblockItems">
                                         Awaiting Developer Fix
                                         <span class="text-nowrap text-xs text-muted">914</span>
                                     </li>
-                                    <li class="list-group-item">
+                                    <li class="list-group-item unresolveblockItems">
                                         Pending
                                         <span class="text-nowrap text-xs text-muted">281</span>
-                                    </li>
+                                    </li> -->
                                 </ul>
                             </div>
                         </div>
@@ -258,30 +240,30 @@
                                     </div>
                                     <p class="card-text subheading"> Today </p>
                                 </div>
-                                <ul class="list-group list-group-flush listblock">
+                                <ul class="list-group list-group-flush listblock tasksblock">
                                     <li class="list-group-item disabledtext" aria-disabled="true">
                                         Create new task
                                         <button><i class="bi bi-plus-square-fill"></i></button>
                                     </li>
-                                    <li class="list-group-item">
+                                    <!-- <li class="list-group-item tasksitem">
                                         <input class="form-check-input me-1" type="radio" name="listGroupRadio" value=""
                                             id="firstRadio" checked>
                                         <label class="form-check-label" for="firstRadio">Finish ticket update</label>
                                         <span class="badge text-bg-warning utext">URGENT</span>
                                     </li>
-                                    <li class="list-group-item">
+                                    <li class="list-group-item tasksitem">
                                         <input class="form-check-input me-1" type="radio" name="listGroupRadio" value=""
                                             id="secondRadio">
                                         <label class="form-check-label" for="secondRadio">Create new ticket
                                             example</label>
                                         <span class="badge text-bg-success ntext">NEW</span>
                                     </li>
-                                    <li class="list-group-item">
+                                    <li class="list-group-item tasksitem">
                                         <input class="form-check-input me-1" type="radio" name="listGroupRadio" value=""
                                             id="thirdRadio">
                                         <label class="form-check-label" for="thirdRadio">Update ticket report</label>
                                         <span class="badge text-bg-secondary deftext" id="deftext">DEFAULT</span>
-                                    </li>
+                                    </li> -->
                                 </ul>
                             </div>
                         </div>
@@ -296,6 +278,9 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
         crossorigin="anonymous"></script>
+
+    <!-- SCRIPT FOR JAVASCRIPT -->
+    <script src="assets/js/main.js"></script>
 </body>
 
 </html>
