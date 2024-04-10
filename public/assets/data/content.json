@@ -2,6 +2,40 @@
     "user": {
         "fullName": "Jones Ferdinand"
     },
+    "navbar": [
+        {
+            "text": "Overview",
+            "url": "/"
+        },
+        {
+            "text": "Tickets",
+            "url": "/"
+        },
+        {
+            "text": "Ideas",
+            "url": "/"
+        },
+        {
+            "text": "Contacts",
+            "url": "/"
+        },
+        {
+            "text": "Agents",
+            "url": "/"
+        },
+        {
+            "text": "Articles",
+            "url": "/"
+        },
+        {
+            "text": "Settings",
+            "url": "/"
+        },
+        {
+            "text": "Subscriptions",
+            "url": "/"
+        }
+    ],
     "card1": [
         {
             "text": "Unresolved",

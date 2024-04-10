@@ -1,11 +1,13 @@
 async function cards(){
     try {
+        // Fetch html classes & ids
         const user = document.querySelector('.profilename')
         const ticketBars = document.querySelectorAll('.ticketbar');
         const listBars = document.querySelectorAll('.rightlist');
         const unresolvedBars = document.getElementById('unresolvedblock');
         const tasksBars = document.querySelector('.tasksblock');
 
+        // Fetch data from content.json
         const response = await fetch("assets/data/content.json");
         const data = await response.json();
 
